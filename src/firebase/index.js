@@ -6,8 +6,8 @@ import 'firebase/functions'
 import {firebaseConfig} from './config'
 
 firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
-const db = firebase.firestore();
-const storage = firebase.storage();
-const functions = firebase.functions();
-const firebaseTimestamp = firebase.fierstore.firebaseTimestamp;
+export const auth = firebase.auth();
+export const db = firebase.firestore();
+export const storage = firebase.storage();
+export const functions = firebase.functions();
+export const FirebaseTimestamp = firebase.firestore.Timestamp;

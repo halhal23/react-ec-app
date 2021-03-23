@@ -14,8 +14,8 @@ const Login = () => {
   return (
     <div>
       <h2>ホーム</h2>
-      <h2>{uid}</h2>
-      <h2>{username}</h2>
+      <h2>ユーザーID: {uid}</h2>
+      <h2>ユーザー名: {username}</h2>
       <button onClick={() => dispatch(push('/login'))}>ログインページへ</button>
     </div>
   )
